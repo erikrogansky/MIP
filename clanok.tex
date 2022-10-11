@@ -2,28 +2,26 @@
 
 \documentclass[10pt,twoside,slovak,a4paper]{article}
 
-\usepackage[slovak]{babel}
-%\usepackage[T1]{fontenc}
-\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[english]{babel}
+\usepackage[IL2]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{url} % príkaz \url na formátovanie URL
-\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
+\usepackage{url}
+\usepackage{hyperref}
 \usepackage{cite}
-%\usepackage{times}
+\usepackage{times}
 
 \pagestyle{headings}
 
-\title{Vplyv počítačových hier na človeka a ľudskú psychiku\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2022/23, vedenie: Ing. Igor Stupavský}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{The influence of computer games on people and the human psyche\thanks{Semester project in the subject Methods of engineering work, ac. year 2022/23, management: Ing. Igor Stupavsky}}
 
 \author{Erik Roganský\\[2pt]
-	{\small Slovenská technická univerzita v Bratislave}\\
-	{\small Fakulta informatiky a informačných technológií}\\
+	{\small Slovak University of Technology in Bratislava}\\
+	{\small Faculty of Informatics and Information Technologies}\\
 	{\small \texttt{xrogansky@stuba.sk}}
 	}
 
-\date{\small 04. október 2022} % upravte
+\date{\small October 11, 2022}
 
 
 
@@ -37,33 +35,26 @@
 
 
 
-\section{Úvod}
+\section{Introduction}
 
 
 
-\section{Nejaká časť} \label{nejaka}
+\section{Part 1} \label{part1}
 
 
 
-\section{Dôležitá časť} \label{dolezita}
+\section{Part 2} \label{part2}
 
 
 
+\section{Conclusion} \label{conclusion}
 
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
-
-
-
-\section{Záver} \label{zaver} % prípadne iný variant názvu
-
-\section{Citácie} \label{cit} 
+\section{Citations} \label{cit} 
 ~\cite{school,behavior,education,empathy,problems,poz-neg-sol,language}
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
 
 
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
 \bibliography{literatura}
-\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\bibliographystyle{acm}
 \end{document}
